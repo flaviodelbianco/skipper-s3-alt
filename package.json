@@ -1,6 +1,6 @@
 {
     "name": "skipper-s3",
-    "description": "Streaming file uploads to S3",
+    "description": "An alternative skipper driver for upload files in AWS S3",
     "version": "0.1.0",
     "author": "Flavio Del Bianco <info@flaviodelbianco.com>",
     "keywords": [
