@@ -56,7 +56,10 @@ module.exports = function (options) {
                         ContentType: mime.lookup(streamFile.fd)
                     };
                     s3.putObject(params, function(err, data) {
-                        if (err) console.log(err, err.stack);
+                        if (err) {
+                            receiver__.emit('error', err);
+                            return;
+                        }
 
                         streamFile.extra = data;
                         done();
