@@ -1,5 +1,5 @@
 {
-    "name": "skipper-s3",
+    "name": "skipper-s3-alt",
     "description": "An alternative skipper driver for upload files in AWS S3",
     "version": "0.1.0",
     "author": "Flavio Del Bianco <info@flaviodelbianco.com>",
