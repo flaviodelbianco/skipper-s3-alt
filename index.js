@@ -57,7 +57,7 @@ module.exports = function (options) {
                     };
                     s3.putObject(params, function(err, data) {
                         if (err) {
-                            receiver__.emit('error', err);
+                            receiver.emit('error', err);
                             return;
                         }
 
